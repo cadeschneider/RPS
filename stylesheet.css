@@ -1,0 +1,77 @@
+html {
+     font-size: 16px
+     font-family: 'Trebuchet MS', sans-serif;
+     font-weight: bold;
+}
+
+body {
+     background-color: #474E68;
+     color: white;
+}
+
+header {
+     font-size: 2em;
+     background-color: #404258;
+     margin: -10px;
+}
+
+div {
+     font-size: 2em;
+     margin: 50px;
+}
+
+#scoreboard {
+     display: flex;
+     justify-content: space-evenly;
+}
+
+#Computer{
+     text-align: left;
+     width: 25%
+}
+
+#Player{
+     text-align: right;
+     width: 25%
+}
+
+#img {
+     display: flex;
+     justify-content: center;
+     gap: 40px;
+     box-shadow: auto, yellow;
+}
+
+#Outcome{
+     font-size: 8em;
+     width: 50%;
+     margin: 15px;
+     text-align: center;
+}
+
+img {
+     flex-wrap: wrap;
+     min-width: 0;
+     border-radius: 100px;
+}
+
+footer {
+     font-size: 2em;
+     position: fixed;
+     left: 0;
+     bottom: 0;
+}
+
+header, footer{
+
+     text-align: center;
+     padding: 10px;
+     width: 100%;
+
+}
+
+.selected {
+
+     box-shadow: yellow;
+
+}

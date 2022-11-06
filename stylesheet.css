@@ -1,5 +1,5 @@
 html {
-     font-size: 16px
+     font-size: 16px;
      font-family: 'Trebuchet MS', sans-serif;
      font-weight: bold;
 }
@@ -38,8 +38,7 @@ div {
 #img {
      display: flex;
      justify-content: center;
-     gap: 40px;
-     box-shadow: auto, yellow;
+     gap: 100px;
 }
 
 #Outcome{
@@ -70,8 +69,20 @@ header, footer{
 
 }
 
-.selected {
+#HumanSelected {
 
-     box-shadow: yellow;
+     box-shadow: 0 0 15px 5px green;
+
+}
+
+#ComputerSelected {
+
+    box-shadow: 0 0 15px 5px red;
+
+}
+
+#Tie {
+
+    box-shadow: 0 0 15px 5px yellow;
 
 }

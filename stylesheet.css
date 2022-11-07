@@ -5,14 +5,18 @@ html {
 }
 
 body {
-     background-color: #474E68;
-     color: white;
+    background-color: #474E68;
+    color: white;
+    display: flex;
+    flex-flow: column;
+    
 }
 
 header {
      font-size: 2em;
      background-color: #404258;
      margin: -10px;
+     display: inline-block
 }
 
 div {
@@ -22,40 +26,40 @@ div {
 
 #scoreboard {
      display: flex;
-     justify-content: space-evenly;
+     justify-content: center;
 }
 
-#Computer{
-     text-align: left;
-     width: 25%
+#Computer, #Player{
+     text-align: center;
+     width: 20%;
+     
 }
 
-#Player{
-     text-align: right;
-     width: 25%
-}
 
 #img {
      display: flex;
+     flex-wrap: wrap;
      justify-content: center;
-     gap: 100px;
+     gap: 10%;
+     margin-bottom: 200px;
 }
 
 #Outcome{
-     font-size: 8em;
-     width: 50%;
-     margin: 15px;
+     width: 25%;
      text-align: center;
 }
 
 img {
      flex-wrap: wrap;
-     min-width: 0;
+     max-width: 300px;
      border-radius: 100px;
+     flex-shrink: 10;
+     margin: 10px; 
+
 }
 
 footer {
-     font-size: 2em;
+     font-size: 1em;
      position: fixed;
      left: 0;
      bottom: 0;
